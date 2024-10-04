@@ -15,10 +15,6 @@ function findAverage(array) {
 
 // my solution
 
-const findAverage = array => array.reduce((a, b) => a + b)
+const findAverage = array => array.reduce((a, b) => a + b, 0) / array.length || 0;
 
 
-
-// right solution
-
-const find_average = array => array.reduce((acc, curr) => acc + curr, 0) / array.length || 0;
