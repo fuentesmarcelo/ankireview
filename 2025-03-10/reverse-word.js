@@ -5,7 +5,7 @@ function reverseWords(str){
     return str; // reverse those words
 }
 
-// my solution
+// my solutions
 
 function reverseWords(str){
     return str.split('').reverse().join('')
