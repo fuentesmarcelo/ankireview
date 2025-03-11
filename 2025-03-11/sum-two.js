@@ -23,7 +23,7 @@ function twoSum(numbers, target) {
     }
 }
 
-// right solution
+// right solutions
 
 function twoSum(numbers, target) {
     for (var i = 0; i < numbers.length-1; i++) {
